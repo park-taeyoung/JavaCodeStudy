@@ -1,0 +1,5 @@
+package ch10_static;
+
+public class StaticVar {
+
+}

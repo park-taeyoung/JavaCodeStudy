@@ -1,0 +1,25 @@
+package ch10_static_final;
+
+class Test {
+	private int num=10;
+	public void print() {
+		System.out.println(num);
+	}
+}
+
+public class FinalMethod extends Test{
+	int num = 20;
+	public void print(int a) {
+		System.out.println(num);
+	}
+	
+	public static void main(String[] args) {
+		FinalMethod f = new FinalMethod();
+		f.print();
+	}
+}
+
+
+
+
+

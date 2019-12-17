@@ -1,0 +1,13 @@
+package ch10_static;
+
+public class FinalVar {
+	public static void main(String[] args) {
+		int max = 100;
+		System.out.println(max);
+		max = 200;
+		System.out.println(max);
+	}
+}
+
+
+

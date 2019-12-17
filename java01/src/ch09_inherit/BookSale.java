@@ -1,0 +1,39 @@
+package ch09_inherit;
+
+public class BookSale extends Book {
+	private int amount;
+	private int rank;
+	private int money;
+	
+	//getter, setter
+	public int getAmount() {
+		return amount;
+	}
+	public void setAmount(int amount) {
+		this.amount = amount;
+	}
+	public int getRank() {
+		return rank;
+	}
+	public void setRank(int rank) {
+		this.rank = rank;
+	}
+	public int getMoney() { //getter는 값을 읽는 메소드
+		return money;
+	}
+//	public void setMoney(int money) { //setter는 값을 쓰는 메소드
+//		this.money = money;
+//	}
+	
+	public void setMoney() { //setter는 값을 쓰는 메소드
+		money = price*amount;
+		if(money > 100000) money=(int)(money*0.9);
+	}
+	public void print() {
+		System.out.println("도서명\t출판사\t저자\t출판연도\t단가\t판매수량\t판매금액\t\t판매순위");
+		System.out.println(bookName+"\t"+press+"\t"+author+"\t"+year+"\t"+price+"\t"+amount+"\t"+money+"\t"+rank);
+		
+	}
+	
+	
+}

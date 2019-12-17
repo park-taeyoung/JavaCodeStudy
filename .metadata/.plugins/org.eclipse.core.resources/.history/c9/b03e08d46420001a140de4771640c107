@@ -1,0 +1,13 @@
+package ch11_abstract;
+
+import java.awt.Graphics;
+
+public class DrawCircle extends Point implements Draw {
+
+	@Override
+	public void paint(Graphics g) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

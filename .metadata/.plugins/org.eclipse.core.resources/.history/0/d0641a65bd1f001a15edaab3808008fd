@@ -1,0 +1,7 @@
+package ch10_static;
+
+public class StaticVar2Use {
+	public static void main(String[] args) {
+		System.out.println(StaticVar2.total);
+	}
+}

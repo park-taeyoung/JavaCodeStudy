@@ -1,0 +1,118 @@
+package kr.co.eland.ormdemo.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import kr.co.eland.ormdemo.dto.BoardDto;
+import kr.co.eland.ormdemo.dto.BoardDto.Response;
+import kr.co.eland.ormdemo.entity.Board;
+import kr.co.eland.ormdemo.repository.BoardRepository;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping(value = "/board") // 도메인 단위로 API를 분리할 수 있도록 URL 맵핑을 작성
+public class BoardController {
+
+	@Autowired
+	private BoardRepository boardRepository;
+
+	@RequestMapping(value = "", method = RequestMethod.POST)
+	public BoardDto.Response save(@RequestBody BoardDto.Request request) {
+
+		Board board = new Board();
+		board.setWriter(request.getWriter());
+		board.setTitle(request.getTitle());
+		board.setContent(request.getContent());
+
+		Board savedBoard = boardRepository.save(board);
+
+		// 제대로 저장 되었다면 정상적인 entity가 return
+		if (savedBoard != null && savedBoard.getId() != 0) {
+			BoardDto.Response response = new Response();
+			response.setId(savedBoard.getId());
+			response.setWriter(savedBoard.getWriter());
+			response.setTitle(savedBoard.getTitle());
+			response.setContent(savedBoard.getContent());
+			return response;
+		} else {
+			return null;
+		}
+	}
+
+	@RequestMapping(value = "/list", method = RequestMethod.GET)
+	// public List<BoardDto.Response> getAll(@RequestBody BoardDto.Request request) {
+	public List<BoardDto.Response> getAll() {
+		List<Board> boards = boardRepository.findAll();
+
+		if (boards.size() != 0) {
+			List<BoardDto.Response> responseList = new ArrayList<BoardDto.Response>();
+			for (Board board : boards) {
+				BoardDto.Response response = new Response();
+				response.setId(board.getId());
+				response.setWriter(board.getWriter());
+				response.setTitle(board.getTitle());
+				response.setContent(board.getContent());
+				responseList.add(response);
+			}
+			return responseList;
+		} else {
+			return null;
+		}
+	}
+
+	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
+	public BoardDto.Response getOne(@PathVariable(value = "id", required = true) int id) {
+		Optional<Board> board = boardRepository.findById(id);
+
+		if (board.isPresent()) {
+			BoardDto.Response response = new Response();
+			response.setId(board.get().getId());
+			response.setWriter(board.get().getWriter());
+			response.setTitle(board.get().getTitle());
+			response.setContent(board.get().getContent());
+
+			return response;
+		} else {
+			return null;
+		}
+	}
+
+	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
+	public BoardDto.Response updateOne(@PathVariable(value = "id", required = true) int id,
+			@RequestBody BoardDto.Request request) {
+
+		Board board = new Board();
+		board.setId(id);
+		board.setWriter(request.getWriter());
+		board.setTitle(request.getTitle());
+		board.setContent(request.getContent());
+
+		// save 메소드 이지만, id가 동일한 레코드가 있으면 자동으로 update
+		Board savedBoard = boardRepository.save(board);
+
+		// 제대로 저장 되었다면 정상적인 entity가 return
+		if (savedBoard != null && savedBoard.getId() != 0) {
+			BoardDto.Response response = new Response();
+			response.setId(savedBoard.getId());
+			response.setWriter(savedBoard.getWriter());
+			response.setTitle(savedBoard.getTitle());
+			response.setContent(savedBoard.getContent());
+			return response;
+		} else {
+			return null;
+		}
+	}
+
+	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+	public void deleteOne(@PathVariable(value = "id", required = true) int id) {
+
+		boardRepository.deleteById(id);
+	}
+}

@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+D:\JAVA\projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1823557430.index
+\test\src\main\java
+D:\JAVA\projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1420477598.index
+\kakaobank_sp\src\main\java
+E:\JAVA\projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1420477598.index
+\kakaobank_sp\src\main\java
+D:\JAVA\projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3420681415.index
+\bigdata\src\main\resources
+D:\JAVA\projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4074728499.index
+\kakaobank\src\main\resources
+D:\JAVA\projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2263758353.index
+\orm-demo\src\main\java

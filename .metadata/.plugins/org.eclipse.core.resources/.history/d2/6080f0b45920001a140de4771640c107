@@ -1,0 +1,8 @@
+package ch11_abstract;
+
+public class AbstractClass {
+	void method1();
+	void method2() {
+		System.out.println("¿Ï¼ºµÈ method");
+	}
+}

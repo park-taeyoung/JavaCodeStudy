@@ -1,0 +1,17 @@
+package ch09_inherit;
+
+public class Sale extends Product {
+	private int price;
+	private int amount;
+	private int money;
+	
+	public void input(int code, String name, String company, String date, int prive, int amount) {
+		this.code=code;
+		setCode(code);
+		setName(name);
+		setCompany(company);
+		setDate(date);
+		this.price=prive;
+		this.amount=amount;
+	}
+}

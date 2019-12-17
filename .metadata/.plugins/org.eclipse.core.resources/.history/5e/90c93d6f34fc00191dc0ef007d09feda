@@ -1,0 +1,5 @@
+package kr.co.eland.ormdemo.controller;
+
+public class BoardController {
+
+}

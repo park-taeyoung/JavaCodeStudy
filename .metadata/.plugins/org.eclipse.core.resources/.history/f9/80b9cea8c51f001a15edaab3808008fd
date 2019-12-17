@@ -1,0 +1,16 @@
+package ch10_static;
+
+public class A {
+	
+}
+
+class B {
+	
+}
+
+class FinalClass {
+
+}
+
+
+

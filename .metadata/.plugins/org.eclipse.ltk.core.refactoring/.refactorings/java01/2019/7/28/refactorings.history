@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ch11_abstractClass&apos; to &apos;ch11_abstract&apos;&#x0D;&#x0A;- Original project: &apos;java01&apos;&#x0D;&#x0A;- Original element: &apos;java01/src/ch11_abstractClass&apos;&#x0D;&#x0A;- Renamed element: &apos;java01/src/ch11_abstract&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ch11_abstractClass&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;ch11_abstractClass" name="ch11_abstract" qualified="false" references="true" stamp="1562885114227" textual="false" version="1.0"/>
+</session>
