@@ -5087,3 +5087,173 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-17 08:38:59.107
 !MESSAGE executing callback sts4.classpath.vVlPMUNL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-17 16:56:51.204
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vVlPMUNL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-17 16:56:51.231
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.vVlPMUNL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-17 16:56:51.244
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-17 16:56:51.263
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vVlPMUNL => OK
+!SESSION 2019-12-18 09:42:20.940 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-12-18 09:42:37.366
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-12-18 09:42:42.951
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-12-18 09:42:42.951
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6cb759d5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ba9765b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:08.334
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:08.348
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@790df366[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=1013)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:08.370
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:10.577
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-12-18 09:43:14.024
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\park_taeyoung'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:27.042
+!MESSAGE Boot LS startup time from start to initialized: 18640ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:27.256
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.eELtPXkMisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:27.274
+!MESSAGE subscribing to classpath changes: sts4.classpath.eELtPXkM isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:27.292
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:27.307
+!MESSAGE subsribers = {sts4.classpath.eELtPXkM=Send Classpath Notifications(90)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:27.320
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.694
+!MESSAGE project java01 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.726
+!MESSAGE project Animal ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.771
+!MESSAGE project Animal SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.805
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.863
+!MESSAGE Preparing classpath changed notification java01
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.877
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.910
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.921
+!MESSAGE project bigdata ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.931
+!MESSAGE project bigdata SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.940
+!MESSAGE project ch01 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.950
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.962
+!MESSAGE project ch01 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.972
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.984
+!MESSAGE project demo SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:32.996
+!MESSAGE buffering callback sts4.classpath.eELtPXkM java01 false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.008
+!MESSAGE executing callback sts4.classpath.eELtPXkM 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.018
+!MESSAGE project orm-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.040
+!MESSAGE project query-database-with-jdbc-branch ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.070
+!MESSAGE project query-database-with-jdbc-branch SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.084
+!MESSAGE project test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.095
+!MESSAGE project test SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.107
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.118
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.eELtPXkM => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.152
+!MESSAGE executing callback sts4.classpath.eELtPXkM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.174
+!MESSAGE Preparing classpath changed notification orm-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.193
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.264
+!MESSAGE classpath=132 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.321
+!MESSAGE buffering callback sts4.classpath.eELtPXkM orm-demo false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.365
+!MESSAGE executing callback sts4.classpath.eELtPXkM 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 09:43:33.496
+!MESSAGE executing callback sts4.classpath.eELtPXkM SUCCESS [done]

@@ -3292,3 +3292,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration DemoApplication ref
 2019-12-16 11:02:11,338 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-12-16 11:02:11,338 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DevProject\JAVA\projects\orm-demo\src\test\resources
 2019-12-16 11:03:23,038 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-12-17 07:47:16,976 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="java.sql.SQLException"/>
-<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="com.eland.entity.User"/>
-<fullyQualifiedTypeName name="org.hibernate.mapping.Array"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
@@ -60,4 +53,11 @@
 <fullyQualifiedTypeName name="ch10_static_final_polymorphism.Printer"/>
 <fullyQualifiedTypeName name="ch10_static_final_polymorphism.InkjetPrinter"/>
 <fullyQualifiedTypeName name="ch10_static_final_polymorphism.LaserPrinter"/>
+<fullyQualifiedTypeName name="ch11_abstract.Bird"/>
+<fullyQualifiedTypeName name="ch11_abstract.AbstractExtends"/>
+<fullyQualifiedTypeName name="ch11_abstract.Airplane"/>
+<fullyQualifiedTypeName name="java.awt.Graphics"/>
+<fullyQualifiedTypeName name="ch11_abstract.DrawCircle"/>
+<fullyQualifiedTypeName name="ch11_abstract.DrawLine"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
 </qualifiedTypeNameHistroy>
