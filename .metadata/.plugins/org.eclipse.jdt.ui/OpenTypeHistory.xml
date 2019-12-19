@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=orm-demo/C:\/Users\/park_taeyoung\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.1.11.RELEASE\/spring-data-jpa-2.1.11.RELEASE.jar&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1570615592762"/>
-<typeInfo handle="=java01/src&lt;ch09_inherit{Book.java[Book" modifiers="1" timestamp="1576466151616"/>
-<typeInfo handle="=java01/src&lt;ch09_inherit{Product.java[Product" modifiers="1" timestamp="1576468443955"/>
-<typeInfo handle="=java01/src&lt;ch10_static_final_polymorphism{Printer.java[Printer" modifiers="1" timestamp="1576480263556"/>
-<typeInfo handle="=java01/src&lt;ch11_abstract{Flyer.java[Flyer" modifiers="513" timestamp="1576539525384"/>
-<typeInfo handle="=java01/src&lt;ch11_abstract{Point.java[Point" modifiers="1" timestamp="1576541923767"/>
-<typeInfo handle="=java01/src&lt;ch11_abstract{Draw.java[Draw" modifiers="513" timestamp="1576541593245"/>
-<typeInfo handle="=java01/C:\/Program Files\/Java\/jre1.8.0_91\/lib\/rt.jar&lt;java.applet(Applet.class[Applet" modifiers="33" timestamp="1496637332452"/>
+<typeInfo handle="=java01/src&lt;ch09_inherit{Book.java[Book" modifiers="1" timestamp="1576634398185"/>
+<typeInfo handle="=java01/src&lt;ch09_inherit{Product.java[Product" modifiers="1" timestamp="1576634398185"/>
+<typeInfo handle="=java01/src&lt;ch10_static_final_polymorphism{Printer.java[Printer" modifiers="1" timestamp="1576634398216"/>
+<typeInfo handle="=java01/src&lt;ch11_abstract{Flyer.java[Flyer" modifiers="513" timestamp="1576578686000"/>
+<typeInfo handle="=java01/src&lt;ch11_abstract{Point.java[Point" modifiers="1" timestamp="1576578686000"/>
+<typeInfo handle="=java01/src&lt;ch11_abstract{Draw.java[Draw" modifiers="513" timestamp="1576578686000"/>
 </typeInfoHistroy>
