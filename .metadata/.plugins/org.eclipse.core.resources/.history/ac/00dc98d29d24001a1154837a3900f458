@@ -1,0 +1,11 @@
+package ch13_useful;
+
+public class StrBuilder {
+	public static void main(String[] args) {
+		StringBuilder str1 = new StringBuilder();
+		str1.append("java"); // 스트링 연결
+		System.out.println(str1.toString());
+		str1.append(" Programming");
+		System.out.println(str1);
+	}
+}

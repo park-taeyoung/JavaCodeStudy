@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=java01/src&lt;ch09_inherit{Book.java[Book" modifiers="1" timestamp="1576634398185"/>
-<typeInfo handle="=java01/src&lt;ch09_inherit{Product.java[Product" modifiers="1" timestamp="1576634398185"/>
-<typeInfo handle="=java01/src&lt;ch10_static_final_polymorphism{Printer.java[Printer" modifiers="1" timestamp="1576634398216"/>
-<typeInfo handle="=java01/src&lt;ch11_abstract{Flyer.java[Flyer" modifiers="513" timestamp="1576578686000"/>
-<typeInfo handle="=java01/src&lt;ch11_abstract{Point.java[Point" modifiers="1" timestamp="1576578686000"/>
-<typeInfo handle="=java01/src&lt;ch11_abstract{Draw.java[Draw" modifiers="513" timestamp="1576578686000"/>
+<typeInfo handle="=java01/src&lt;ch09_inherit{Book.java[Book" modifiers="1" timestamp="1576899746340"/>
+<typeInfo handle="=java01/src&lt;ch09_inherit{Product.java[Product" modifiers="1" timestamp="1576899746341"/>
+<typeInfo handle="=java01/src&lt;ch10_static_final_polymorphism{Printer.java[Printer" modifiers="1" timestamp="1576899746347"/>
+<typeInfo handle="=java01/src&lt;ch11_abstract{Flyer.java[Flyer" modifiers="513" timestamp="1576899746353"/>
+<typeInfo handle="=java01/src&lt;ch11_abstract{Point.java[Point" modifiers="1" timestamp="1576899746353"/>
+<typeInfo handle="=java01/src&lt;ch11_abstract{Draw.java[Draw" modifiers="513" timestamp="1576899746351"/>
 </typeInfoHistroy>

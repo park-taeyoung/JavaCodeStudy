@@ -1,0 +1,9 @@
+package ch13_useful;
+
+public class StringEx5 {
+	public static void main(String[] args) {
+		String jumin = "911231-1234567";
+		String jumin2 = "031231-3234567";
+		int year = jumin.substring(0, 2);
+	}
+}

@@ -1,0 +1,10 @@
+package ch13_useful;
+
+public class StringExam {
+	public static void main(String[] args) {
+		// String str = new String("hello");
+		String str = "hello";
+		String str2 = "hello";
+		System.out.println(str==str2);
+	}
+}
