@@ -1,8 +1,0 @@
-package ch10_static_final_polymorphism;
-
-public class ObjectExam {
-	public static void main(String[] args) {
-		ObjectExam ex = new ObjectExam();
-		System.out.println(ex.getClass());
-	}
-}

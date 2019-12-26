@@ -1,5 +1,0 @@
-package ch10_static_final_polymorphism;
-
-public class DotPrinter extends Printer {
-
-}
