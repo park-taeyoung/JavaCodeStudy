@@ -1,0 +1,22 @@
+package ch14_collection;
+
+public class Type3<T> { // 자료형 미정, 이런 클래스를 템플릿이라고 함.
+
+		T t;
+		public void setT(T t) {
+			this.t = t;
+		}
+		
+		public T getT() {
+			return t;
+		}
+		
+		public static void main(String[] args) {
+			Type3<String> t = new Type3<String>(); // 컴파일할 때 자로형을 고정시킴
+			t.setT("100");;
+			System.out.println(t.getT());
+			t.setT(500); //에러 : 지정된 자료형만 입력이 가능함
+			System.out.println(t.getT());
+		}
+}
+

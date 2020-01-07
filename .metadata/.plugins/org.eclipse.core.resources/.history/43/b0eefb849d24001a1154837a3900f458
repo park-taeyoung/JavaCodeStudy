@@ -1,8 +1,0 @@
-package ch13_useful;
-
-public class StringBuilder {
-	public static void main(String[] args) {
-		StringBuilder str1 = new StringBuilder();
-		str1.append("java"); // 스트링 연결
-	}
-}

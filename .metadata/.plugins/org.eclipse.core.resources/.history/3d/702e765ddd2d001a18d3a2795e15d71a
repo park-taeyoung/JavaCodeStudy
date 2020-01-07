@@ -1,0 +1,19 @@
+package ch15_exception;
+
+import java.util.Scanner;
+
+public class DoubleExam {
+	public static void main(String[] args) {
+		int num = 50;
+		Scanner sc = null;
+		
+		try {
+			System.out.println("숫자를 입력하세요.");
+			sc = new Scanner(System.in);
+			int value = sc.nextInt();
+			System.out.println(num/value);
+		} catch (Exception e) {
+			
+		}
+	}
+}

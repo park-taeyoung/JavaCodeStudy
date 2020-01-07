@@ -1,0 +1,22 @@
+package ch14_collection.Set;
+
+import java.util.HashSet;
+
+public class SetExam {
+	public static void main(String[] args) {
+		//중복값을 허용하지 않음
+		HashSet<String> hs = new HashSet<String>();
+		
+		hs.add("korea");
+		hs.add("japan");
+		hs.add("america");
+		hs.add("britain");
+		hs.add("korea"); // 입력되지 않음
+		
+		for (String str : hs) {
+			System.out.println(str);
+		}
+		
+		
+	}
+}

@@ -1,5 +1,0 @@
-package ch11_abstract;
-
-public interface Draw {
-
-}

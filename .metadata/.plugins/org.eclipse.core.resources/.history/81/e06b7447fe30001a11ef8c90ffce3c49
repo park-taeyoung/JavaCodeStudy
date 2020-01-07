@@ -1,0 +1,18 @@
+package ch16_thread.Anim;
+
+import java.awt.Image;
+
+public class Anim extends Applet implements Runnable{
+	private Image[] img;
+	private int idx;
+	
+	
+	
+	
+	@Override
+	public void run() {
+		
+	}
+	
+
+}

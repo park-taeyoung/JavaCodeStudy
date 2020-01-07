@@ -1,0 +1,43 @@
+package ch16_thread.BufferingAnim;
+
+import java.applet.Applet;
+import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.Toolkit;
+
+public class BufferingAnim extends Applet implements Runnable{
+
+	private Image[] img; // 이미지 객체배열
+	private int idx; // 이미지의 인덱스
+	private Image offImage; // 백그라운드 이미지 객체
+	private Graphics bg; // 백그라운드 그래픽 처리 객체
+	
+	public void init() {
+		img = new Image[10];
+		for(int i=0; i<img.length; i++) {
+			img[i]=Toolkit.getDefaultToolkit().getImage(getClass().getResource("kim"+(i+1)+".png"));
+			
+		}
+		Thread t = new Thread(this);
+		t.start();
+
+	}
+	
+	
+	
+	@Override
+	public void run() {
+		while(true) {
+			idx++;
+			if(idx>=10) {
+				idx=0;
+			}
+			repaint();
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+}

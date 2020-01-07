@@ -1,0 +1,12 @@
+package ch14_collection;
+
+import java.util.ArrayList;
+
+public class ListStudent {
+	public static void main(String[] args) {
+		Arraylist<Student> list = new ArrayList<Student>();
+		
+		Student s1 = new Student();
+		
+	}
+}

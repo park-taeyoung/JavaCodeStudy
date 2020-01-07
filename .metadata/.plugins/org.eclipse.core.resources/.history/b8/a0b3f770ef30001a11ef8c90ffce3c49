@@ -1,0 +1,33 @@
+package ch16_thread;
+
+import java.applet.Applet;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Image;
+// 더블 버퍼링
+public class BufferedBall extends Applet implements Runnable{
+	private int x, y; // 원의 좌표
+	private int moveX = 2, moveY = 3; // x, y축의 이동거리
+	private int width, height;  // 화면 가로, 세로 사이즈
+	private Graphics bg; // 백그라운드 이미지에 그래픽 처리를 하기 위한 객체
+	private Image offScreen; // 백그라운드 이미지 객체
+	private Dimension dim; // 화면의 가로, 세로 크기 계산
+	
+	public void init() {
+		setSize(300, 300);
+		dim = getSize();
+		offScreen = createImage(dim.width, dim.height);
+		bg = offScreen.getGraphics();
+		Thread t = new Thread(this);
+		t.start();
+	}
+	
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

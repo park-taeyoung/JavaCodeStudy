@@ -1,0 +1,16 @@
+package ch16_thread.BufferingAnim;
+
+import java.applet.Applet;
+
+public class BufferedAnim extends Applet implements Runnable{
+
+	
+	
+	@Override
+	public void run() {
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,14 @@
+package ch15_exception;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+public class TryWith {
+	public static void main(String[] args) {
+		try (InputStream inputstream = new FileInputStream("D:\\DevProject\\JAVA\\test.txt")) {
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

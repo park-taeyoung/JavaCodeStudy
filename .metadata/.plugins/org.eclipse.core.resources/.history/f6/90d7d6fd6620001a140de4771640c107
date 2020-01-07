@@ -1,7 +1,0 @@
-package ch11_abstract;
-
-import java.applet.Applet;
-
-public class DrawUse extends Applet {
-
-}
