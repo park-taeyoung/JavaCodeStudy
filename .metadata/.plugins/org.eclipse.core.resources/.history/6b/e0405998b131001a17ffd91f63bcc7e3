@@ -1,0 +1,10 @@
+package ch17_gui;
+
+import javax.swing.JFrame;
+
+public class FrameExam2 {
+	public static void main(String[] args) {
+		JFrame f = new JFrame();
+		
+	}
+}

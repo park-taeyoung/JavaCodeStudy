@@ -1,0 +1,25 @@
+package ch17_gui.Grid;
+
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class GridExam extends JFrame{
+	public GridExam() {
+		this.setLayout(new GridLayout(2, 3));
+		for (int i=0; i<=6; i++) {
+			JButton button = new JButton("버튼" + i);
+			this.add(button);
+		}
+		
+		// 프레임 설정
+		this.setSize(300, 300);
+		this.setVisible(true);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+	}
+	
+	public static void main(String[] args) {
+		new GridExam();
+	}
+}

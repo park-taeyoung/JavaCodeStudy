@@ -1,0 +1,16 @@
+package ch17_gui.Event;
+
+import java.awt.Frame;
+
+public class EventExam1 extends Frame{
+	public EventExam1() {
+		setSize(300, 300);
+		setVisible(true);
+	}
+	
+	
+	public static void main(String[] args) {
+		new EventExam1();
+	}
+
+}
