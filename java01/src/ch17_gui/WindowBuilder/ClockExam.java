@@ -49,7 +49,7 @@ public class ClockExam extends JFrame implements Runnable{
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
 		
-		JButton btnClose = new JButton("\uD504\uB85C\uADF8\uB7A8 \uC885\uB8CC");
+		JButton btnClose = new JButton("프로그램 종료");
 		btnClose.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				System.exit(0);
