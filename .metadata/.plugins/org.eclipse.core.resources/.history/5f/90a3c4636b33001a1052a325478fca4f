@@ -1,0 +1,53 @@
+package ch17_gui.WindowBuilder;
+
+import java.awt.CardLayout;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class CardExam extends JFrame {
+	CardLayout card; // 카드 레이아웃 객체
+	Container con; // 프레임의 컨텐츠 영역
+
+	public CardExam() {
+		// 프레임의 컨텐츠 영역을 가져옴
+		con = getContentPane();
+		card = new CardLayout();
+
+		// 기본 레이아웃을 카드 레이아웃으로 변경
+		setLayout(card);
+
+		// JPanel 객체 배열
+		JPanel[] pan = new JPanel[5];
+		Color[] color = { Color.red, Color.yellow, Color.green, Color.blue, Color.cyan };
+
+		for (int i = 0; i < pan.length; i++) {
+			// 패널 생성
+			pan[i] = new JPanel();
+
+			// 패널의 배경색
+			pan[i].setBackground(color[i]);
+
+			// 프레임에 패널 추가
+			add("card" + i, pan[i]);
+
+			pan[i].addMouseListener(new MouseAdapter() {
+				public void mouseClicked(MouseEvent e) {
+					// 다음 화면으로 이동
+					card.next(con);
+				}
+			});
+
+		}
+
+	}
+
+	public static void main(String[] args) {
+		new CardExam();
+	}
+
+}
